@@ -1,0 +1,21 @@
+.page-content-wrapper .logo {
+  margin-top: 45px; }
+  .page-content-wrapper .logo img {
+    display: block;
+    margin: 0 auto; }
+
+.page-content-wrapper .intro {
+  margin-top: 55px; }
+  .page-content-wrapper .intro .list-intro {
+    width: 700px;
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center; }
+    .page-content-wrapper .intro .list-intro li {
+      flex-grow: 1;
+      display: inline-block; }
+      .page-content-wrapper .intro .list-intro li a {
+        text-decoration: none;
+        color: #333333;
+        font-size: 12pt; }
