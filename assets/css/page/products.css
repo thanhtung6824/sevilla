@@ -46,6 +46,11 @@
     .page-products-wrapper .products-field .row {
       margin: 0; }
       .page-products-wrapper .products-field .row .product-detail {
-        padding-top: 10px;
+        padding: 30px;
         border-right: 1px solid;
-        border-bottom: 1px solid; }
+        border-bottom: 1px solid;
+        text-align: left; }
+        .page-products-wrapper .products-field .row .product-detail .product-name, .page-products-wrapper .products-field .row .product-detail .product-price {
+          font-size: 16px; }
+        .page-products-wrapper .products-field .row .product-detail .product-price {
+          color: #80c41c; }

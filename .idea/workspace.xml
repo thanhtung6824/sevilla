@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ed0dfa-d7c9-4444-a235-438351efde6e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/page/products.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/page/products.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/layouts/component-rounded.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/component-rounded.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/layouts/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/font/UTM Helve_0.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/font/UTM_Helve_0.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/layouts/component-rounded.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/layouts/component-rounded.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/layouts/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/layouts/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/page/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/page/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/page/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/page/products.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,35 +18,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/description.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="195" selection-start-line="169" selection-end-line="195" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/page/products.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="205">
+              <caret line="149" column="39" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/scss/layouts/layout.scss">
+        <entry file="file://$PROJECT_DIR$/assets/scss/page/products.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="162" selection-start-line="162" selection-end-line="162" />
+            <state relative-caret-position="529">
+              <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -84,15 +59,16 @@
         <option value="$PROJECT_DIR$/assets/scss/page/contact.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/assets/scss/layouts/component-rounded.scss" />
-        <option value="$PROJECT_DIR$/assets/scss/page/products.scss" />
-        <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/layouts/layout.scss" />
+        <option value="$PROJECT_DIR$/html/description.html" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/assets/scss/page/products.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="23" />
+    <option name="x" value="1561" />
+    <option name="y" value="187" />
     <option name="width" value="1920" />
     <option name="height" value="983" />
   </component>
@@ -206,15 +182,15 @@
       <workItem from="1543572494940" duration="1512000" />
       <workItem from="1543807098997" duration="10441000" />
       <workItem from="1548917904311" duration="8702000" />
-      <workItem from="1548930656317" duration="6653000" />
+      <workItem from="1548930656317" duration="7709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74910000" />
+    <option name="totallyTimeSpent" value="75966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="983" extended-state="0" />
+    <frame x="1561" y="187" width="1920" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46041667" visible="true" weight="0.1799787" />
@@ -307,13 +283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/page/products.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7">
@@ -335,24 +304,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/layouts/layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/description.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="195" selection-start-line="169" selection-end-line="195" />
+        <state relative-caret-position="214">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
+        <state relative-caret-position="205">
+          <caret line="149" column="39" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/layouts/layout.scss">
+    <entry file="file://$PROJECT_DIR$/assets/scss/page/products.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        <state relative-caret-position="529">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
         </state>
       </provider>
     </entry>

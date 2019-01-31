@@ -63,9 +63,16 @@
     .row {
       margin: 0;
       .product-detail {
-        padding-top: 10px;
+        padding: 30px;
         border-right: 1px solid;
         border-bottom: 1px solid;
+        text-align: left;
+        .product-name , .product-price{
+          font-size: 16px;
+        }
+        .product-price {
+          color: #80c41c;
+        }
       }
     }
   }
