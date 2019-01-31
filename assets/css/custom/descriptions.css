@@ -1,0 +1,17 @@
+.list-desciprtion {
+  margin-bottom: 70px; }
+  .list-desciprtion .text-box {
+    padding-left: 70px; }
+    .list-desciprtion .text-box h3, .list-desciprtion .text-box p {
+      float: left;
+      font-family: UTM;
+      text-align: left; }
+    .list-desciprtion .text-box h3 {
+      font-weight: bold;
+      font-size: 16pt;
+      margin-bottom: 40px; }
+    .list-desciprtion .text-box p {
+      font-size: 11pt; }
+
+.certificate-field {
+  margin: 200px 0 200px 0; }
