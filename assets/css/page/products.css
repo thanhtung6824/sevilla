@@ -2,55 +2,72 @@
   margin-top: 60px;
   width: 1380px;
   border-radius: 10px;
+  background-color: #80c41c;
   position: relative; }
-  .page-products-wrapper .row {
-    width: 100%;
-    position: relative; }
-  .page-products-wrapper .categories-menu {
+  .page-products-wrapper .categories-menu-wrapper {
     position: absolute;
-    z-index: 10;
-    list-style: none;
-    width: 450px;
-    background-color: #439e31;
-    border-top-right-radius: 10px;
+    padding: 0;
     height: 100%; }
-    .page-products-wrapper .categories-menu li {
+    .page-products-wrapper .categories-menu-wrapper .categories-menu {
+      position: relative;
+      z-index: 10;
+      list-style: none;
+      background-color: #439e31;
+      border-top-right-radius: 10px;
+      height: 100%; }
+      .page-products-wrapper .categories-menu-wrapper .categories-menu li {
+        height: 40px;
+        vertical-align: middle;
+        line-height: 40px;
+        color: #ffffff;
+        font-size: 11pt;
+        font-weight: 500;
+        text-align: left; }
+      .page-products-wrapper .categories-menu-wrapper .categories-menu li:not(:last-child) {
+        border-bottom: 1px solid #ffffff; }
+  .page-products-wrapper .products-field-wrapper {
+    padding: 0;
+    float: right; }
+    .page-products-wrapper .products-field-wrapper .title-type-products {
+      padding-right: 0;
       height: 40px;
-      vertical-align: middle;
-      line-height: 40px;
-      color: #ffffff;
-      font-size: 11pt;
-      font-weight: 500;
-      text-align: left; }
-    .page-products-wrapper .categories-menu li:not(:last-child) {
-      border-bottom: 1px solid #ffffff; }
-  .page-products-wrapper .title-type-products {
-    background-color: #80c41c;
-    position: absolute;
-    height: 40px;
-    width: 100%; }
-    .page-products-wrapper .title-type-products .title-content {
-      margin-left: 450px;
+      width: 100%;
       color: #ffffff; }
-      .page-products-wrapper .title-type-products .title-content .title-badge {
+      .page-products-wrapper .products-field-wrapper .title-type-products .title-badge {
         text-align: center;
         cursor: pointer;
         vertical-align: middle;
         line-height: 40px; }
-      .page-products-wrapper .title-type-products .title-content .title-badge:not(:last-child) {
+      .page-products-wrapper .products-field-wrapper .title-type-products .title-badge:not(:last-child) {
         border-right: 1px solid #ffffff; }
   .page-products-wrapper .products-field {
-    margin-left: 450px;
-    margin-top: 40px;
-    float: right; }
-    .page-products-wrapper .products-field .row {
-      margin: 0; }
-      .page-products-wrapper .products-field .row .product-detail {
-        padding: 30px;
-        border-right: 1px solid;
-        border-bottom: 1px solid;
-        text-align: left; }
-        .page-products-wrapper .products-field .row .product-detail .product-name, .page-products-wrapper .products-field .row .product-detail .product-price {
-          font-size: 16px; }
-        .page-products-wrapper .products-field .row .product-detail .product-price {
-          color: #80c41c; }
+    background-color: #ffffff;
+    padding-right: 0; }
+    .page-products-wrapper .products-field .product-detail {
+      padding: 30px;
+      border-right: 1px solid;
+      border-bottom: 1px solid;
+      text-align: left; }
+      .page-products-wrapper .products-field .product-detail .product-name, .page-products-wrapper .products-field .product-detail .product-price {
+        font-size: 16px; }
+      .page-products-wrapper .products-field .product-detail .product-price {
+        color: #80c41c; }
+
+@media (min-width: 0px) and (max-width: 990px) {
+  .page-products-wrapper {
+    width: 90%;
+    background-color: #ffffff; }
+    .page-products-wrapper .categories-menu-wrapper {
+      position: relative !important; }
+    .page-products-wrapper .title-type-products {
+      background-color: #80c41c;
+      height: 120px !important;
+      padding: 0; }
+      .page-products-wrapper .title-type-products .title-badge {
+        border-bottom: 1px solid #ffffff; }
+    .page-products-wrapper .product-detail {
+      border-right: 0 !important; } }
+
+@media (min-width: 990px) and (max-width: 1368px) {
+  .page-products-wrapper {
+    width: 90%; } }

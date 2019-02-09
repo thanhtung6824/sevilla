@@ -9,6 +9,11 @@ html body {
   top: 0;
 }
 
+.page-container-wrapper {
+  min-height: 100% !important;
+  position: relative;
+}
+
 .page-header {
   width: 100%;
   margin: 0;
@@ -55,6 +60,7 @@ html body {
 
 .page-container {
   margin-top: 45px;
+  padding-bottom: 400px;
 
   .page-content-wrapper {
     margin-bottom: 34px;
@@ -135,8 +141,24 @@ html body {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
+  a {
+    font-family: UTMBOLD;
+    color: #333333;
+    font-size: 8pt !important;
+  }
   .page-intro {
     width: 100% !important;
+  }
+  .page-footer {
+    padding: 40px 0 40px 0 !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1268px) {
+  a {
+    font-family: UTMBOLD;
+    color: #333333;
+    font-size: 8pt !important;
   }
 }
 
@@ -148,26 +170,25 @@ html body {
 }
 
 .field-badge-inline {
+  width: 100%;
   display: inline-block;
 }
 
 .item-wrapper {
-  max-width: 925px;
+  width: 90%;
 }
 
 .page-footer {
-  width: 100%;
   padding-top: 90px;
-  height: 300px;
   background-color: #e5e5e5;
   right: 0;
   bottom: 0;
   left: 0;
   text-align: center;
+  min-height: 300px;
+  position: absolute;
 
   .page-footer-inner {
-    width: 100%;
-
     .footer-info {
       margin-top: 25px;
 
@@ -178,6 +199,7 @@ html body {
   }
 
   .company-contact {
+    margin: 0;
     font-size: 11pt;
     color: #6e6e6e;
   }

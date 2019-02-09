@@ -1,103 +1,141 @@
 .toggable-tab {
   margin-top: 60px;
-  width: 1380px;
+  width: 800px;
+
   #mytabs {
-    border: 1px solid #5d9c59;
+    width: 100%;
+    position: relative;
+    height: 60px;
     border-radius: 10px;
   }
-  ul#mytabs li:before {
-    position: absolute;
-    display: block;
-    border-radius: 0 50px 50px 0;
-    border-right: 10px solid #5d9c59;
-    height: 56px;
-    top: -1px;
-    z-index: 10;
-    content: '';
-    right: -12px;
-  }
-  ul#mytabs li:after {
-    position: absolute;
-    display: block;
-    border-radius: 0 50px 50px 0;
-    border-right: 10px solid #ffffff;
-    height: 56px;
-    top: -1px;
-    z-index: 10;
-    content: '';
-    right: -11px;
+
+  .nav-tabs {
+    border-bottom: none;
   }
 
+  li {
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid #44a032;
+    overflow: hidden !important;
+    height: 100%;
 
-  //ul#mytabs li:before {
-  //  position: absolute;
-  //  display: block;
-  //  border-radius: 0 50px 50px 0;
-  //  border-left: 16px solid #5d9c59;
-  //  border-right: 0;
-  //  height: 56px;
-  //  width: 10px;
-  //  //border: 24px solid transparent;
-  //  //border-left: 16px solid #5d9c59;
-  //  //border-right: 0;
-  //  top: -1px;
-  //  z-index: 10;
-  //  content: '';
-  //  right: -16px;
-  //}
-  //ul#mytabs li:after {
-  //  position: absolute;
-  //  display: block;
-  //  border-radius: 0 50px 50px 0;
-  //  border-left: 16px solid #ffffff;
-  //  border-right: 0;
-  //  height: 56px;
-  //  top: -1px;
-  //  z-index: 10;
-  //  content: '';
-  //  right: -15px;
-  //}
+    a {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
   .contact-tab {
     z-index: 3;
     width: 33%;
-    //border-right: 1px solid #5d9c59;
-    //border-radius: 0 10px 10px 0;
-    //-webkit-border-radius: 0 10px 10px 0;
-    //-moz-border-radius: 0 10px 10px 0;
-    //box-sizing: border-box;
-    overflow: hidden;
-    //a {
-    //  width: 100%;
-    //  border-radius: 10px;
-    //}
+    text-align: center;
   }
+
   .guarantee-tab {
-    position: relative;
     z-index: 2;
-    width: 34%;
-    //border-right: 1px solid #5d9c59;
-    //border-radius: 0 10px 10px 0;
+    width: 66%;
+    padding-left: 33%;
   }
+
   .agency-tab {
-    position: relative;
     z-index: 1;
-    width: 33%;
+    width: 100%;
+    padding-left: 66%;
   }
+
   .nav-tabs > li.active > a {
     background-color: #44a032;
     color: #fff;
+    border: none;
   }
+
+  .nav-tabs > li.active {
+    background-color: #44a032;
+  }
+
   a {
     font-family: UTMBOLD;
     color: #333333;
-    font-size: 18pt;
+    font-size: 12pt;
+  }
+
+  .tab-content {
+    margin-top: 100px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    #agency-tab {
+      .item-field {
+        margin-top: 50px;
+      }
+
+      .info-field {
+        text-align: left;
+        padding: 20px;
+
+        .agency-title {
+          font-size: 12pt;
+          font-family: UTMBOLD;
+          font-weight: 600;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+}
+
+.question-field {
+  width: 800px;
+  margin-top: 100px;
+  .item-wrapper {
+    width: 100%;
+  }
+  .question-title {
+    font-size: 12pt;
+  }
+  .question-form {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    form {
+      display: inline-block;
+      input::placeholder {
+        color: black;
+        font-size: 8pt;
+        font-family: UTMBOLD;
+      }
+      textarea::placeholder {
+        color: black;
+        font-size: 8pt;
+        font-family: UTMBOLD;
+      }
+      textarea {
+        height: 200px !important;
+      }
+      .btn {
+        width: 100px;
+      }
+      .form-control {
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid #44a032;
+      }
+    }
   }
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
   .toggable-tab {
-    width: 100% !important;
+    width: 80% !important;
   }
+  .question-field {
+    width: 80% !important;
+  }
+
   a {
     font-family: UTMBOLD;
     color: #333333;
@@ -110,15 +148,22 @@
 
 @media (min-width: 768px) and (max-width: 1268px) {
   .toggable-tab {
-    width: 100% !important;
+    width: 80% !important;
+
     a {
       font-family: UTMBOLD;
       color: #333333;
       font-size: 8pt !important;
     }
+
     .tab-field {
       height: 50px;
     }
   }
+  .question-field {
+    width: 80% !important;
+  }
+
+
 }
 

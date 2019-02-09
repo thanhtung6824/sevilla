@@ -6,7 +6,6 @@
 .shadow-line {
   background: #429e31;
   border-left: 295px #368a2c;
-  width: 1000px;
   height: 3px;
   box-shadow: inset 120px 0px 100px -50px #c9ddc8, inset -120px 0px 100px -50px #a3c6a1;
   position: relative; }
@@ -96,3 +95,7 @@
   border-left: 5px solid #ffffff;
   display: inline-block;
   margin-right: 10px; }
+
+.btn-green {
+  background-color: #429e31;
+  color: #fff; }

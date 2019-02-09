@@ -1,52 +1,97 @@
 .toggable-tab {
   margin-top: 60px;
-  width: 1380px; }
+  width: 800px; }
   .toggable-tab #mytabs {
-    border: 1px solid #5d9c59;
+    width: 100%;
+    position: relative;
+    height: 60px;
     border-radius: 10px; }
-  .toggable-tab ul#mytabs li:before {
+  .toggable-tab .nav-tabs {
+    border-bottom: none; }
+  .toggable-tab li {
+    background-color: #ffffff;
     position: absolute;
-    display: block;
-    border-radius: 0 50px 50px 0;
-    border-right: 10px solid #5d9c59;
-    height: 56px;
-    top: -1px;
-    z-index: 10;
-    content: '';
-    right: -12px; }
-  .toggable-tab ul#mytabs li:after {
-    position: absolute;
-    display: block;
-    border-radius: 0 50px 50px 0;
-    border-right: 10px solid #ffffff;
-    height: 56px;
-    top: -1px;
-    z-index: 10;
-    content: '';
-    right: -11px; }
+    border-radius: 10px;
+    border: 1px solid #44a032;
+    overflow: hidden !important;
+    height: 100%; }
+    .toggable-tab li a {
+      width: 100%;
+      height: 100%; }
   .toggable-tab .contact-tab {
     z-index: 3;
     width: 33%;
-    overflow: hidden; }
+    text-align: center; }
   .toggable-tab .guarantee-tab {
-    position: relative;
     z-index: 2;
-    width: 34%; }
+    width: 66%;
+    padding-left: 33%; }
   .toggable-tab .agency-tab {
-    position: relative;
     z-index: 1;
-    width: 33%; }
+    width: 100%;
+    padding-left: 66%; }
   .toggable-tab .nav-tabs > li.active > a {
     background-color: #44a032;
-    color: #fff; }
+    color: #fff;
+    border: none; }
+  .toggable-tab .nav-tabs > li.active {
+    background-color: #44a032; }
   .toggable-tab a {
     font-family: UTMBOLD;
     color: #333333;
-    font-size: 18pt; }
+    font-size: 12pt; }
+  .toggable-tab .tab-content {
+    margin-top: 100px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll; }
+    .toggable-tab .tab-content #agency-tab .item-field {
+      margin-top: 50px; }
+    .toggable-tab .tab-content #agency-tab .info-field {
+      text-align: left;
+      padding: 20px; }
+      .toggable-tab .tab-content #agency-tab .info-field .agency-title {
+        font-size: 12pt;
+        font-family: UTMBOLD;
+        font-weight: 600;
+        line-height: 50px; }
+
+.question-field {
+  width: 800px;
+  margin-top: 100px; }
+  .question-field .item-wrapper {
+    width: 100%; }
+  .question-field .question-title {
+    font-size: 12pt; }
+  .question-field .question-form {
+    margin-top: 50px;
+    display: block;
+    text-align: center; }
+    .question-field .question-form form {
+      display: inline-block; }
+      .question-field .question-form form input::placeholder {
+        color: black;
+        font-size: 8pt;
+        font-family: UTMBOLD; }
+      .question-field .question-form form textarea::placeholder {
+        color: black;
+        font-size: 8pt;
+        font-family: UTMBOLD; }
+      .question-field .question-form form textarea {
+        height: 200px !important; }
+      .question-field .question-form form .btn {
+        width: 100px; }
+      .question-field .question-form form .form-control {
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid #44a032; }
 
 @media (min-width: 320px) and (max-width: 768px) {
   .toggable-tab {
-    width: 100% !important; }
+    width: 80% !important; }
+  .question-field {
+    width: 80% !important; }
   a {
     font-family: UTMBOLD;
     color: #333333;
@@ -56,10 +101,12 @@
 
 @media (min-width: 768px) and (max-width: 1268px) {
   .toggable-tab {
-    width: 100% !important; }
+    width: 80% !important; }
     .toggable-tab a {
       font-family: UTMBOLD;
       color: #333333;
       font-size: 8pt !important; }
     .toggable-tab .tab-field {
-      height: 50px; } }
+      height: 50px; }
+  .question-field {
+    width: 80% !important; } }
