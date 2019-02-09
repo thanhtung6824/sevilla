@@ -48,10 +48,6 @@
       border-right: 1px solid;
       border-bottom: 1px solid;
       text-align: left; }
-      .page-products-wrapper .products-field .product-detail .product-name, .page-products-wrapper .products-field .product-detail .product-price {
-        font-size: 16px; }
-      .page-products-wrapper .products-field .product-detail .product-price {
-        color: #80c41c; }
 
 @media (min-width: 0px) and (max-width: 990px) {
   .page-products-wrapper {

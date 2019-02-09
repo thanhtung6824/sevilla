@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ed0dfa-d7c9-4444-a235-438351efde6e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/html/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/page/product.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/layouts/component-rounded.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/component-rounded.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/layouts/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layouts/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/page/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/page/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/page/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/page/products.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/layouts/component-rounded.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/layouts/component-rounded.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/layouts/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/layouts/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/page/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/page/contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/page/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/page/products.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,32 +18,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/contacts.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="111" column="51" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
+            <state relative-caret-position="623">
+              <caret line="180" column="54" selection-start-line="180" selection-start-column="54" selection-end-line="180" selection-end-column="54" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scss/layouts/component-rounded.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="648">
+              <caret line="132" column="15" selection-start-line="132" selection-start-column="15" selection-end-line="132" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/page/contact.scss">
+        <entry file="file://$PROJECT_DIR$/assets/scss/page/product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+            <state relative-caret-position="753">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
             </state>
           </provider>
         </entry>
@@ -83,13 +77,16 @@
         <option value="$PROJECT_DIR$/assets/global/plugins/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/assets/css/layouts/component-rounded.css" />
         <option value="$PROJECT_DIR$/assets/css/layouts/layout.css" />
-        <option value="$PROJECT_DIR$/assets/scss/page/products.scss" />
         <option value="$PROJECT_DIR$/html/description.html" />
         <option value="$PROJECT_DIR$/assets/scss/layouts/layout.scss" />
-        <option value="$PROJECT_DIR$/assets/scss/layouts/component-rounded.scss" />
         <option value="$PROJECT_DIR$/assets/scss/page/contact.scss" />
-        <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/html/product.html" />
+        <option value="$PROJECT_DIR$/html/products.html" />
+        <option value="$PROJECT_DIR$/assets/scss/layouts/component-rounded.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/page/products.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/page/product.scss" />
+        <option value="$PROJECT_DIR$/html/index.html" />
       </list>
     </option>
   </component>
@@ -127,7 +124,21 @@
               <item name="sevilla" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sevilla" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sevilla" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sevilla" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sevilla" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sevilla" type="b2602c69:ProjectViewProjectNode" />
@@ -200,18 +211,28 @@
       <workItem from="1549544969797" duration="3950000" />
       <workItem from="1549702736996" duration="3316000" />
       <workItem from="1549706549529" duration="158000" />
-      <workItem from="1549706715480" duration="888000" />
+      <workItem from="1549706715480" duration="3822000" />
+      <workItem from="1549713105559" duration="2309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91738000" />
+    <option name="totallyTimeSpent" value="96981000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46041667" visible="true" weight="0.19670959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46041667" visible="true" weight="0.19957082" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.53395784" side_tool="true" weight="0.22293907" />
       <window_info id="Favorites" order="3" sideWeight="0.5395833" side_tool="true" weight="0.30537635" />
@@ -222,9 +243,9 @@
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4730077" weight="0.31451613" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32123655" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32048193" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.52699226" side_tool="true" weight="0.31451613" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31854838" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3180723" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49275362" weight="0.32519084" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -273,13 +294,6 @@
     <entry file="file://$PROJECT_DIR$/assets/css/page/products.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/custom/descriptions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/layouts/scripts/layout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -298,13 +312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/page/products.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="81" column="48" lean-forward="true" selection-start-line="81" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -315,51 +322,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/layouts/layout.scss">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="111" column="31" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/layouts/component-rounded.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="97" column="7" lean-forward="true" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="260" column="10" selection-start-line="260" selection-end-line="288" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/page/contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="111" column="51" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
+        <state relative-caret-position="284">
+          <caret line="114" column="34" lean-forward="true" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/assets/scss/custom/descriptions.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="15">
+          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/layouts/layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="80" selection-start-line="80" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/page/contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="196" selection-start-line="196" selection-end-line="206" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/page/products.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/page/product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/layouts/component-rounded.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="132" column="15" selection-start-line="132" selection-start-column="15" selection-end-line="132" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="180" column="54" selection-start-line="180" selection-start-column="54" selection-end-line="180" selection-end-column="54" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
